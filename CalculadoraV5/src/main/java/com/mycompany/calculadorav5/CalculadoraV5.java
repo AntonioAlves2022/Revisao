@@ -11,6 +11,8 @@ package com.mycompany.calculadorav5;
 public class CalculadoraV5 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        JFCalc calc = new JFCalc();
+        calc.setLocationRelativeTo(calc);
+        calc.setVisible(true);
     }
 }
